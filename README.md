@@ -10,3 +10,44 @@ Yeah, it was truly worth it! I suppose now that we need to know how to do it, ha
 
 
 ![mario](https://github.com/guimaleo/pipex/assets/128752196/9a1a0fd4-19c9-4919-ba7c-f37a295749a5)
+
+
+<details>
+  <summary>Pipex Allowed Functions</summary>
+  
+- open
+  - int  open(const char *path, int oflag, ...);
+- close
+  -  int  close(int fildes);
+- read
+  - ssize_t  read(int fildes, void *buf, size_t nbyte);
+- write
+  -  ssize_t write(int fildes, const void *buf, size_t nbyte);
+- malloc
+  - void  *malloc(size_t size);
+- free
+  - void  free(void *ptr);
+- perror
+  - void  perror(const char *s);
+- strerror
+  - char  *strerror(int errno);
+- access
+  - int  access(const char *path, int **amode**)
+- dup and dup2
+  - int  dup(int fildes);
+  - int  dup2(int fildes, int fildes2);
+- execve
+  - int  execve(const char *path, char *const argv[], char *const envp[]);
+- exit
+  - void  exit(int **status**)
+- fork
+  - pid_t  fork(*void*);
+- pipe
+  - int  pipe(int fildes[2]);
+- unlink
+  - int  unlink(const char *path);
+- wait and waitpid
+  - pid_t  wait(int *stat_loc);
+  - pid_t  wait(pid_t pid, int *stat_loc, int options);
+
+</details>
