@@ -8,4 +8,4 @@ Nah, I couldn't confine myself to the basics of sending output to STDOUT. I want
 
 Yeah, it was truly worth it! I suppose now that we need to know how to do it, having experienced my own struggles before, understanding the concepts of pipes for Pipex comes more easily.
 
-![Pipe]("C:\Users\LeonardoGuimarães\Desktop\mario-pipe-1024x538.jpg")
+
